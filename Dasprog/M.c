@@ -45,26 +45,26 @@ ll bSort(list data[]){
 				else if (data[j].n4 == data[i].n4){
 					if (data[j].n3 > data[i].n3){
 						list temp = data[j];
-		                data[j] = data[i];
-		                data[i] = temp;
+		                		data[j] = data[i];
+		               			data[i] = temp;
 					}
 					else if (data[j].n3 == data[i].n3){
 						if (data[j].n2 > data[i].n2){
 							list temp = data[j];
-			                data[j] = data[i];
-			                data[i] = temp;
+			                		data[j] = data[i];
+			                		data[i] = temp;
 						}
 						else if (data[j].n2 == data[i].n2){
 							if (data[j].n1 > data[i].n1){
 								list temp = data[j];
-				                data[j] = data[i];
-				                data[i] = temp;
+				                		data[j] = data[i];
+				                		data[i] = temp;
 							}
 							else if(data[j].n1 == data[i].n1){
 								if (data[j].id < data[i].id){
 									list temp = data[j];
-					                data[j] = data[i];
-					                data[i] = temp;
+					                		data[j] = data[i];
+					                		data[i] = temp;
 								}
 							}
 						}
