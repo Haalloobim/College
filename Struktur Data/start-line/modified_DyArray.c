@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+/*
+DYNAMIC ARRAY FOR C USER 
+*/
+
 typedef struct dynamicarr_t {
     int *_arr;
     unsigned _size, _capacity;
@@ -145,7 +149,21 @@ int main(){
     DynamicArray vector;
     d_init(&vector);
 
-
+    d_pushBack(&vector, 11);
+    d_print(&vector); 
+    d_pushBack(&vector, 14);
+    d_pushBack(&vector, 10);
+    d_print(&vector);
+    d_insert(&vector, 4, 19);
+    d_print(&vector);
+    d_remove(&vector, 4); 
+    d_print(&vector);
+    d_insert(&vector, 5, 65);
+    d_print(&vector);
+	d_remove(&vector, 1); 
+    d_print(&vector);
+	d_remove(&vector, 0); 
+    d_print(&vector);
     
     
     return 0;
