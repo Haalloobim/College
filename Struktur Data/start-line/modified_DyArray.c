@@ -22,8 +22,7 @@ int  dArray_getAt(DynamicArray *darray, unsigned index);
 void dArray_insertAt(DynamicArray *darray, unsigned index, int value);
 void dArray_removeAt(DynamicArray *darray, unsigned index);
 
-void dArray_init(DynamicArray *darray)
-{
+void dArray_init(DynamicArray *darray){
     darray->_capacity = 2u;
     darray->_size = 0u;
     darray->_arr = (int*) malloc(sizeof(int) * 2);
@@ -33,8 +32,7 @@ bool dArray_isEmpty(DynamicArray *darray) {
     return (darray->_size == 0);
 }
 
-void dArray_pushBack(DynamicArray *darray, int value)
-{
+void dArray_pushBack(DynamicArray *darray, int value){
     if (darray->_size + 1 > darray->_capacity) {
         unsigned it;
         darray->_capacity *= 2;
