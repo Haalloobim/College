@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <string.h>
 
 int main(int argc, char *argv[]){
     FILE *src, *trgt;
-    char str[101];
+    int str[1024];
     int tempr;
 
     src = fopen(argv[1], "rb");
@@ -14,8 +13,7 @@ int main(int argc, char *argv[]){
     trgt = fopen(argv[2], "wb");
     
     while (1){
-    	memset(str, 0, sizeof(str));
-        tempr = fread(str, 1, 100, src);
+        tempr = fread(str, 1, 1024, src);
         fwrite(str, 1, tempr, trgt);
         if (feof(src)){
             printf("        1 file(s) has been copied.\n"); 
