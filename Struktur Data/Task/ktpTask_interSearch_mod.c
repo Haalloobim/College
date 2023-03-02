@@ -3,7 +3,6 @@
 #include <string.h>
 
 int jumlahData = 0 ;
-char nikAkhir[17];
 char nikBesar[17] = {"1100000000000000"}; //kode nik aceh
 char nikKecil[17] = {"9300000000000000"}; //kode nik papua
 
@@ -21,6 +20,8 @@ void cari(char nik[]);
 void entri(); 
 void lihatSemua();
 void error(); 
+void menu();
+
 
 int main(){
 	FILE *src = fopen("database.bin", "ab+"); 
