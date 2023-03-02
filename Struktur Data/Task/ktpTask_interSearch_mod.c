@@ -39,13 +39,7 @@ int main(){
     printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 	while (1){
 	    int opr;
-	    printf("\n\t~~MENU UTAMA~~\n");
-        printf("\n Pilih Menu yang tersedia:\n");
-        printf(" 1. Entri data ktp.\n");
-        printf(" 2. Lihat data ktp.\n");
-        printf(" 3. Cari data ktp.\n");
-        printf(" 4. Keluar.\n");
-        printf("\n Pilihan:");
+	    menu();
         scanf("%d", &opr);
 
         while (opr == 1){
@@ -73,6 +67,16 @@ int main(){
        }
     }
 	return 0; 
+}
+
+void menu(){
+	printf("\n\t~~MENU UTAMA~~\n");
+    printf("\n Pilih Menu yang tersedia:\n");
+    printf(" 1. Entri data ktp.\n");
+    printf(" 2. Lihat data ktp.\n");
+    printf(" 3. Cari data ktp.\n");
+    printf(" 4. Keluar.\n");
+    printf("\n Pilihan:");
 }
 
 void printData(data *KTP){
