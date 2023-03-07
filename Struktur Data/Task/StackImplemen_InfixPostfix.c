@@ -13,7 +13,7 @@ void init();
 int  isEmpty();
 void push(char str);
 void pop();
-int  compare(char x);
+int  compare(char str);
 void solve();
 
 int main(){
@@ -52,8 +52,8 @@ void pop(){
 	printf("%c ", temp); 
 }
 
-int compare(char x){
-	if (x == '+' || x == '-'){
+int compare(char str){
+	if (str == '+' || str == '-'){
 		return 1; 
 	}
 	return 2; 
