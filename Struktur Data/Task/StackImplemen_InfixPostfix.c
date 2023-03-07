@@ -31,6 +31,13 @@ void pop(){
 	printf("%c ", temp); 
 }
 
+int compare(char x){
+	if (x == '+' || x == '-'){
+		return 1; 
+	}
+	return 2; 
+}
+
 int main(){
 	init();
 	char str[25]; 
@@ -41,12 +48,11 @@ int main(){
 			push(str[i]); 
 			continue; 
 		}
-		else if ((str[i] == '+' || str[i] == '-' || str[i] == '*' ||str[i] == '/') && !isEmpty()){
-			while ((str[i]== '+' || str[i] == '-') && (st.data[st.top] == '*' || st.data[st.top] == '/') ){
+		if ((str[i] == '+' || str[i] == '-' || str[i] == '*' ||str[i] == '/') && !isEmpty()){
+			while (compare(str[i]) <= compare(st.data[st.top]) && !isEmpty()){
 				pop(); 
-				push(str[i]); 
 			}
-			if ((str[i]== '*' || str[i] == '/') && (st.data[st.top] != '*' || st.data[st.top] != '/')
+			if (compare(str[i] > compare(st.data[st.top])) ){
 				push(str[i]); 
 			}
 			continue; 
