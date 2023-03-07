@@ -9,12 +9,21 @@ typedef struct{
 
 stack st; 
 
-void init(){
-	st.top = -1; 
+void init();
+int  isEmpty();
+void push(char str);
+void pop();
+int  compare(char x);
+void solve();
+
+int main(){
+	init();
+	solve(); 
+	return 0; 
 }
 
-int isFull(){
-	return (st.top == 10 - 1) ? 1: 0; 
+void init(){
+	st.top = -1; 
 }
 
 int isEmpty(){
@@ -60,10 +69,4 @@ void solve(){
 	while (!isEmpty()){
 		pop(); 
 	}
-}
-
-int main(){
-	init();
-	solve(); 
-	return 0; 
 }
