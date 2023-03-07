@@ -52,9 +52,7 @@ int main(){
 			while (compare(str[i]) <= compare(st.data[st.top]) && !isEmpty()){
 				pop(); 
 			}
-			if (compare(str[i] > compare(st.data[st.top])) ){
-				push(str[i]); 
-			}
+			push(str[i]); 
 			continue; 
 		}
 		printf("%c ", str[i]); 
