@@ -42,11 +42,11 @@ int main(){
 			continue; 
 		}
 		else if ((str[i] == '+' || str[i] == '-' || str[i] == '*' ||str[i] == '/') && !isEmpty()){
-			if ((str[i]== '+' || str[i] == '-') && (st.data[st.top] == '*' || st.data[st.top] == '/') ){
+			while ((str[i]== '+' || str[i] == '-') && (st.data[st.top] == '*' || st.data[st.top] == '/') ){
 				pop(); 
 				push(str[i]); 
 			}
-			else
+			if ((str[i]== '*' || str[i] == '/') && (st.data[st.top] != '*' || st.data[st.top] != '/')
 				push(str[i]); 
 			}
 			continue; 
