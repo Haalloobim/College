@@ -38,8 +38,7 @@ int compare(char x){
 	return 2; 
 }
 
-int main(){
-	init();
+void solve(){
 	char str[25]; 
 	scanf("%s", str); 
 	int n = strlen(str), i; 
@@ -61,5 +60,10 @@ int main(){
 	while (!isEmpty()){
 		pop(); 
 	}
+}
+
+int main(){
+	init();
+	solve(); 
 	return 0; 
 }
