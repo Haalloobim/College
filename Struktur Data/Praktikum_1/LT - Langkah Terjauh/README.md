@@ -1,4 +1,4 @@
-<h1 align="center>LT - Langkah Terjauh</h1>
+<h1 align="center"> LT - Langkah Terjauh</h1>
 <br>
 
 ## Problem Description
