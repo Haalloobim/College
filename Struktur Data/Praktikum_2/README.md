@@ -1,7 +1,7 @@
 # Praktikum 2 Sturktur Data
 
 ## Problem Set List 
-- [JSN - James Suka Nyontek](KKBG%20-%20Kartu%20Kok%20Bisa%20Gini/) 
-- [BACOT - Bat Counttry](LT%20-%20Langkah%20Terjauh)
-- [FS - Find Subtree](MP%20-%20Miko%20Mencari%20Pacar)
-- [NKCTHI - Nyari Kado Buat Cika](PULU%20-%20Tumpuccan%20Si%20Luccman)
+- [BACOT - Bat Counttry](BACOT%20-%20Bat%20Counttry)
+- [FS - Find Subtree](FS%20-%20Find%20Subtree)
+- [JSN - James Suka Nyontek](JSN%20-%20James%20Suka%20Nyontek) 
+- [NKCTHI - Nyari Kado Buat Cika](NKCTHI%20-%20Nyari%20Kado%20Buat%20Cika)
