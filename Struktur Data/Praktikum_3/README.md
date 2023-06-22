@@ -1,7 +1,7 @@
 # Praktikum 3 Sturktur Data
 
 ## Problem Set List 
-- [BACOT - Bat Counttry](BACOT%20-%20Bat%20Counttry)
-- [FS - Find Subtree](FS%20-%20Find%20Subtree)
-- [JSN - James Suka Nyontek](JSN%20-%20James%20Suka%20Nyontek) 
-- [NKCTHI - Nyari Kado Buat Cika](NKCTHI%20-%20Nyari%20Kado%20Buat%20Cika)
+- [BPKA - Buka Puasa Kok Avl](BPKA%20-%20Buka%20Puasa%20Kok%20Avl)
+- [CUCKER - Security Shocker](CUCKER%20-%20Security%20Shocker)
+- [MPD - Meyusun Piramida](MPD%20-%20Meyusun%20Piramida)
+- [MTS - Miko Tukang Sihir](MTS%20-%20Miko%20Tukang%20Sihir)
