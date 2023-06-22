@@ -17,7 +17,7 @@ kemudian menjumlahkan seluruhnya seperti gambar berikut</p>
 <img align="center" src="https://github.com/Haalloobim/College/blob/main/Struktur%20Data/Praktikum_3/BPKA%20-%20Buka%20Puasa%20Kok%20Avl/Example.png" width="70%" height="auto" />
 </p>
 
-<b>Bantulan Jenny membuat program untuk menjawab pertannyaan Budi!<b>
+<b>Bantulan Jenny membuat program untuk menjawab pertannyaan Budi! </b>
 
 ## Input Format
 - Input berupa MASUKKAN X , artinya memasukkan node X ke dalam AVL Tree. Dimana X adalah integer
