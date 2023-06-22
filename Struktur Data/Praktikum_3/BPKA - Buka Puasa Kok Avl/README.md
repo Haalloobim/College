@@ -14,7 +14,7 @@ kolom vertikal pada AVL Tree - Lalu mengkuadratkan setiap jumlah pada kolom, -
 kemudian menjumlahkan seluruhnya seperti gambar berikut</p>
 
 <p align="center">
-<img align="center" src="https://github.com/jjchoNC/ctf-writeups/blob/main/UNITY%20CTF%202023/ES/Files/1.png" width="70%" height="auto" />
+<img align="center" src="https://github.com/Haalloobim/College/blob/main/Struktur%20Data/Praktikum_3/BPKA%20-%20Buka%20Puasa%20Kok%20Avl/Example.png" width="70%" height="auto" />
 </p>
 
 <b>Bantulan Jenny membuat program untuk menjawab pertannyaan Budi!<b>
