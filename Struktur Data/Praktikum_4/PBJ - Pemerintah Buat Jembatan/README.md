@@ -16,7 +16,7 @@ yang diperlukan untuk menjadikan semua menjadi satu connected graph).
 </p>
 
 <p align="center">
-<img align="center" src="https://github.com/Haalloobim/College/blob/main/Struktur%20Data/Praktikum_4/PBJ%20-%20Pemerintah%20Buat%20Jembatan/example.png" width="70%" height="auto" />
+<img align="center" src="https://github.com/Haalloobim/College/blob/main/Struktur%20Data/Praktikum_4/PBJ%20-%20Pemerintah%20Buat%20Jembatan/Example.png" width="70%" height="auto" />
 </p>
 
 ## Input Format
